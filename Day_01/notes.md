@@ -54,3 +54,77 @@ console.log("Super-20");
 2. Node.js allows JavaScript execution outside the browser.
 3. `console.log()` helps display output and debugging.
 4. Practice regularly to improve coding skills.
+
+---
+
+## Lecture 3: Online JavaScript Environment, Git & GitHub Codespaces
+
+### Key Points
+
+* JavaScript can be executed online without local setup using cloud environments.
+* GitHub is not only a portfolio platform; it is mainly used for version control and source code management.
+* Git helps track changes and collaborate with developers.
+
+### GitHub Repository Setup
+
+* Create a GitHub account.
+* Create a repository for storing JavaScript code and notes.
+* Add a README file to describe the project.
+* Public repositories are free and accessible from anywhere.
+
+### GitHub Codespaces
+
+* GitHub provides an online coding environment called **Codespaces**.
+* It gives an online VS Code-like interface.
+* No need to install software locally.
+* Uses containers (virtual development environments).
+
+### Node.js Setup in Codespaces
+
+* Configure a container with Node.js runtime.
+* Select a recent Node.js version.
+* Codespaces rebuilds the environment after setup.
+
+### Creating and Running Files
+
+Example file:
+
+```js
+console.log("Hello JavaScript");
+console.log("Super-20");
+```
+
+Run using:
+
+```bash
+node test.js
+```
+
+### Git Workflow in Codespaces
+
+Steps:
+
+1. Create files/folders.
+2. Stage changes (`git add`)
+3. Commit changes (`git commit`)
+4. Push changes (`git push`)
+
+### Why Push Code?
+
+* Saves progress online.
+* Prevents data loss.
+* Allows collaboration and access from anywhere.
+
+### Resource Management
+
+* Codespaces has limited free hours.
+* Stop/delete unused containers to save hours.
+* Code remains safe in GitHub repository.
+
+### Key Takeaways
+
+1. GitHub is used for version control.
+2. Codespaces provides an online VS Code environment.
+3. Git tracks changes in projects.
+4. Always commit and push code regularly.
+5. Node.js can run in cloud environments too.
